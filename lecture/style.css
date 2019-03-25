@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+* {
+  font-family: 'Cabin', sans-serif;
+}
+
+.container {
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  font-size: 50px;
+  letter-spacing: 3px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 20px;
+  background-color: #3b81d8;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all .2s ease-out;
+}
+
+button:hover {
+  background-color: hsl(213, 67%, 44%);
+}
+
+button:active {
+  background-color: hsl(134, 63%, 48%);
+}
+
+li.purchased {
+  text-decoration: line-through;
+}
+
+/* .buy-btn {
+  background-color: #28f040;
+  animation-name: buyAnimation;
+  animation-play-state: running;
+  animation-duration: .25;
+  animation-direction: alternate;
+  animation-timing-function: none;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+@keyframes buyAnimation {
+  0% {
+    background-color: #28f040;
+  }
+  100% {
+    background-color: #red;
+  }
+} */
