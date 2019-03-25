@@ -33,6 +33,10 @@ button:active {
   background-color: hsl(134, 63%, 48%);
 }
 
+.groceries li {
+  cursor: pointer;
+}
+
 li.purchased {
   text-decoration: line-through;
 }
